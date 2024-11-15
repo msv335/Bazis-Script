@@ -39,6 +39,6 @@
 
 ## Контакты для связи
 
-Sergey Maksimov
-e-mail: msv335@gmail.com
-telegram: @msv335
+- Sergey Maksimov
+- e-mail: msv335@gmail.com
+- telegram: @msv335
