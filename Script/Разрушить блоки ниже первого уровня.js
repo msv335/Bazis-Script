@@ -64,7 +64,6 @@ function asmSearch(obj) { // перебираем родительские об�
     if (obj instanceof TModel3D || obj instanceof TLayer3D) {
         return false
     } else if (obj instanceof TFurnAsm || 
-               obj instanceof TAsmKit || 
                obj instanceof TDraftBlock) {
         return obj
     } else {

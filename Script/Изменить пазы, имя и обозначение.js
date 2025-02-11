@@ -6,7 +6,7 @@
 function asmSearch(obj) { // перебираем родительские объекты на наличие сборки
     if (obj instanceof TModel3D || obj instanceof TLayer3D) {
         return false
-    } else if (obj instanceof TFurnAsm || obj instanceof TAsmKit) {
+    } else if (obj instanceof TFurnAsm) {
         return true
     } else {
         return asmSearch(obj.Owner)

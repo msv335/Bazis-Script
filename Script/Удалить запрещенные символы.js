@@ -58,8 +58,7 @@ Model.forEach(obj => {
                     obj.Name = replaceSymbols(obj.Name)
                     obj.MaterialName = replaceSymbols(obj.MaterialName)
     } else if (obj instanceof TFastener || 
-               obj instanceof TFurnAsm || 
-               obj instanceof TAsmKit) {
+               obj instanceof TFurnAsm) {
                     obj.Name = replaceSymbols(obj.Name)
     }
 })

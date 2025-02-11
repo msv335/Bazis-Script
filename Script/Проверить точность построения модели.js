@@ -47,8 +47,7 @@ function fixFloat(value, rounding) {
 
 function inAsm(obj) { // объект внутри покупного изделия?
     return  obj instanceof TModel3D || obj instanceof TLayer3D ? false :
-            obj instanceof TFurnAsm || obj instanceof TAsmKit ? true :
-            inAsm(obj.Owner)
+            obj instanceof TFurnAsm ? true : inAsm(obj.Owner)
 }
 
 
