@@ -68,6 +68,7 @@ listBuild.forEach(obj => {
         panel.MaterialName = obj.Mat
         panel.Thickness = obj.Thick
         panel.TextureOrientation = 2 // 2 - то же что TextureOrientation.Vertical
+        panel.MaterialWidth = 0 // принудительно назначаем тип "Лист"
 
         let butt = null
     
